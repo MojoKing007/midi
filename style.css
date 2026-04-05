@@ -29,7 +29,9 @@ body {
     background: #000;
     display: flex;
     flex-direction: column;
+
 }
+
 
 /* ─── Background ─── */
 .bg-img {
@@ -140,6 +142,7 @@ body {
 
     overflow: hidden;
     transition: transform 0.1s ease, box-shadow 0.1s ease;
+    touch-action: manipulation;
 }
 
 .pad:hover {
